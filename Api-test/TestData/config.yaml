@@ -1,0 +1,155 @@
+base_url: 'https://10.2.12.76:9600/'
+
+hostname: '10.2.12.75'   #ssh登录控制台配置
+port: 22
+username: 'root'
+password: 'eisoo.com123'
+
+clienthostname: '10.2.12.87'    #ssh登录客户端配置
+clientport: 22
+clientusername: 'root'
+clientpassword: 'eisoo.com123'
+
+login_name: test_login  #用户登录
+login_method: post
+login_url: /oauths/access_token
+login_headers:
+  Referer: https://10.2.12.76:9600/login
+
+profile_name: test_profile   #获取userId
+profile_method: get
+profile_url: /oauths/profile
+profile_headers:
+  Referer: https://10.2.12.76:9600/
+
+createvolume_name:  test_create_volume  #创建卷
+createvolume_method: post
+createvolume_url: /storageresmgm/application/volumes
+createvolume_headers:
+  Referer: https://10.2.12.76:9600/storage/node/config
+
+init_name: test_init   #初始化用户
+init_method: put
+init_url: /oauths/user/{}/password   #用户Id
+init_headers:
+  Referer: https://10.2.12.76:9600/overview
+
+nodes_name: test_nodeId   #获取nodeId
+nodes_method: get
+nodes_url: /clusters/nodes
+nodes_headers:
+  Referer: https://10.2.12.76:9600/storage/node/config
+
+fp_name: test_create_fp  #创建指纹池
+fp_method: post
+fp_url: /commons/fingerpoors
+fp_headers:
+  Referfer: https://10.2.12.76:9600/resources/deduplication
+
+auth_name: test_auth   #添加授权码
+auth_method: post
+auth_url: /oauths/licenses
+auth_headers:
+  Referer: https://10.2.12.76:9600/system/license
+
+authId_name: test_authId   #获取授权码id
+authId_method: get
+authId_url: /oauths/licenses
+authId_headers:
+  Referer: https://10.2.12.76:9600/system/license
+
+active_name: test_active   #激活授权
+active_method: post
+active_url: /oauths/license/{}/active   #授权码Id
+active_headers:
+  Referer: https://10.2.12.76:9600/system/license
+
+operator_name: test_wxt   #新建操作员
+operator_method: post
+operator_url: /oauths/users
+operator_headers:
+  Referer: https://10.2.12.76:9600/usermgm/list
+
+clientId_name: test_clientId   #获取客户端id
+clientId_method: get
+clientId_url: /commons/clients
+clientId_headers:
+  Referer: https://10.2.12.76:9600/resources/clientmgm
+
+distribution_name: test_distribution   #分配客户端
+distribution_method: post
+distribution_url: /oauths/user/clients_distribution
+distribution_headers:
+  Referer: https://10.2.12.76:9600/resources/clientmgm
+
+dtip_name: test_datatransferip   #添加数据传输ip
+dtip_method: post
+dtip_url: /storageresmgm/datatransferips
+dtip_headers:
+  Referer: https://10.2.12.76:9600/storage/node
+
+fpId_name: test_fpId   #获取指纹池的id
+fpId_method: get
+fpId_url: /commons/fingerpoors
+fpId_headers:
+  Referer: https://10.2.12.76:9600/resources/deduplication
+
+fpdistribution_name: test_ftdistribution    #分配指纹池
+fpdistribution_method: post
+fpdistribution_url: /oauths/user/fingerpoors_distribution
+fpdistribution_headers:
+  Referer: https://10.2.12.76:9600/resources/deduplication
+
+fl_name: test_fl   #创建指纹库
+fl_method: post
+fl_url: /commons/fingerprints
+fl_headers:
+  Referer: https://10.2.12.76:9600/resources/deduplication
+
+backup_name: test_backup   #新建任务
+backup_method: post
+backup_url: /backups/backup_jobs
+backup_headers:
+  Referer: https://10.2.12.76:9600/dataprotect/timing/backupnew
+
+startup_name: test_startup_backup    #发起任务
+startup_method: post
+startup_url: /backups/backup_job/{}     #clientid
+startup_headers:
+  Referer: https://10.2.12.76:9600/dataprotect/timing
+
+jobid_name: test_jobid   #获取任务的id
+jobid_method: get
+jobid_url: /backups/backup_jobs
+jobid_headers:
+  Referer: https://10.2.12.76:9600/dataprotect/timing
+
+clusterid_name: test_clusterid   #获取集群的id
+clusterid_method: get
+clusterid_url: /clusters/clustermgm/link_clusters
+clusterid_headers:
+  Referer: https://10.2.12.76:9600/dataprotect/recovery
+
+gns_name: test_gns  #获取gns
+gns_method: get
+gns_url: /backups/storage/job_cid_objects
+gns_headers:
+  Referer: https://10.2.12.76:9600/dataprotect/recovery
+
+timepoint_name: test_gnsPath   #获取时间点
+timepoint_method: get
+timepoint_url: /backups/storage/job/timepoints
+timepoint_headers:
+  Referer: https://10.2.12.76:9600/dataprotect/recovery/genrestoredit
+
+restore_name: test_restore    #启动恢复任务
+restore_method: post
+restore_url: /backups/recovery_jobs
+restore_headers:
+  Referer: https://10.2.12.76:9600/dataprotect/recovery/genrestoredit
+
+jobname_name: test_jobname    #获取恢复任务的jobname
+jobname_method: get
+jobname_url: /backups/recovery_jobs/job_name
+jobname_headers:
+  Referer: https://10.2.12.76:9600/dataprotect/recovery/genrestoredit
