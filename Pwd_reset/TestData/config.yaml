@@ -1,0 +1,18 @@
+sh_base_url: https://192.168.140.55:9600
+shidc_base_url: https://10.4.8.6:9600
+
+login_name: test_login  #用户登录
+login_method: post
+login_url: /oauths/access_token
+sh_login_headers:
+  Referer: https://192.168.140.55:9600/login
+shidc_login_headers:
+  Referer: https://10.4.8.6:9600/login
+
+reset_name: test_reset
+reset_method: put
+reset_url: /oauths/user/{}/password  #userId
+sh_reset_headers:
+  Referer: https://192.168.140.55:9600/usermgm/user
+shidc_reset_headers:
+  Referer: https://10.4.8.6:9600/usermgm/user

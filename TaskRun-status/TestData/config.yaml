@@ -1,0 +1,95 @@
+sh_base_url: https://192.168.140.55:9600
+wxidc_base_url: https://10.10.1.229:9600
+shidc_base_url: https://10.4.8.6:9600
+
+eso_backupengine_vmwareengine: VMware备份任务
+eso_backupengine_fileengine: 文件定时备份任务
+eso_backupengine_mysqlengine: MySQL定时备份任务
+eso_backupengine_fusionpcengine: FusionCompute定时备份任务
+eso_backupengine_exchangeengine: ExchangeDAG副本备份任务
+
+login_name: test_login  #用户登录
+login_method: post
+login_url: /oauths/access_token
+sh_login_headers:
+  Referer: https://192.168.140.55:9600/login
+shidc_login_headers:
+  Referer: https://10.4.8.6:9600/login
+wxidc_login_headers:
+  Referer: https://10.10.1.229:9600/login
+
+backupResult_name: test_getResult   #获取定时备份任务结果
+backupResult_url: /backups/backup_job/instances
+backupResult_method: get
+sh_backupResult_headers:
+  Referer: https://192.168.140.55:9600/dataprotect/timing
+shidc_backupResult_headers:
+  Referer: https://10.4.8.6:9600/dataprotect/timing
+wxidc_backupResult_headers:
+  Referer: https://10.10.1.229:9600/dataprotect/timing
+
+backupResult02_name: test_getResult2   #获取定时任务结果
+backupResult02_url: /backups/backup_job/instance/{}/logs   #instId
+backupResult02_method: get
+sh_backupResult02_headers:
+  Referer: https://192.168.140.55:9600/dataprotect/timing
+shidc_backupResult02_headers:
+  Referer: https://10.4.8.6:9600/dataprotect/timing
+wxidc_backupResult02_headers:
+  Referer: https://10.10.1.229:9600/dataprotect/timing
+
+backupResult03_name: test_getResult3   #获取定时任务结果
+backupResult03_url: /backups/backup_job/instance/{}/targets   #instId
+backupResult03_method: get
+sh_backupResult03_headers:
+  Referer: https://192.168.140.55:9600/dataprotect/timing
+shidc_backupResult03_headers:
+  Referer: https://10.4.8.6:9600/dataprotect/timing
+wxidc_backupResult03_headers:
+  Referer: https://10.10.1.229:9600/dataprotect/timing
+
+backupReason_name: test_getReason   #获取定时任务失败原因
+backupReason_url: /backups/backup_job/instance/{}/logs    #jobId
+backupReason_method: get
+sh_backupReason_headers:
+  Referer: https://192.168.140.55:9600/dataprotect/timing
+shidc_backupReason_headers:
+  Referer: https://10.4.8.6:9600/dataprotect/timing
+wxidc_backupReason_headers:
+  Referer: https://10.10.1.229:9600/dataprotect/timing
+
+cdmResult_name: get_cdmResult   #获取cdm任务的备份结果
+cdmResult_url: /dataprotects/backup_job/instance/histories
+cdmResult_method: get
+sh_cdmResult_headers:
+  Referer: https://192.168.140.55:9600/cdm/timing
+shidc_cdmResult_headers:
+  Referer: https://10.4.8.6:9600/cdm/timing
+wxidc_cdmResult_headers:
+  Referer: https://10.10.1.229:9600/cdm/timing
+
+cdmReason_name: test_getReason02   #获取cdm任务失败原因
+cdmReason_url: /dataprotects/backup_job/instance/{}/logs    #instanceId
+cdmReason_method: get
+sh_cdmReason_headers:
+  Referer: https://192.168.140.55:9600/cdm/timing
+shidc_cdmReason_headers:
+  Referer: https://10.4.8.6:9600/cdm/timing
+wxidc_cdmReason_headers:
+  Referer: https://10.10.1.229:9600/cdm/timing
+
+selfResult_name: test_getResult   #获取自备份任务结果
+selfResult_url: /updates/self/jobs
+selfResult_method: get
+sh_selfResult_headers:
+  Referer: https://192.168.140.55:9600/system/selfbackup
+shidc_selfResult_headers:
+  Referer: https://10.4.8.6:9600/system/selfbackup
+wxidc_selfResult_headers:
+  Referer: https://10.10.1.229:9600/system/selfbackup
+
+Reason1: 这些文件无法进行备份
+Reason2: 无法打开文件/目录
+Reason4: 存在未成功备份的虚拟机
+Reason5: 本次备份将会转为[完全备份]
+Reason6: 解析数据源

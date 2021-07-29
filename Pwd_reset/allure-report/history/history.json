@@ -1,0 +1,406 @@
+{
+  "4112f7b36edf2c38b99bd513582bc2bd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "8341db881344683b",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/8341db881344683b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765074417,
+        "stop" : 1626765074894,
+        "duration" : 477
+      }
+    }, {
+      "uid" : "6fcf188fffe9908c",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/6fcf188fffe9908c",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'shidc_login_operator' is not defined",
+      "time" : {
+        "start" : 1626764854339,
+        "stop" : 1626764854344,
+        "duration" : 5
+      }
+    } ]
+  },
+  "e949167752dc2ac155be39acb042dac8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "3f60f3c3c538755d",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/3f60f3c3c538755d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765068668,
+        "stop" : 1626765069110,
+        "duration" : 442
+      }
+    }, {
+      "uid" : "ec8a5b1889b0ca36",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/ec8a5b1889b0ca36",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764849114,
+        "stop" : 1626764849540,
+        "duration" : 426
+      }
+    }, {
+      "uid" : "cf5f1cd0b820ac1a",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/28/allure/#testresult/cf5f1cd0b820ac1a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764273421,
+        "stop" : 1626764273873,
+        "duration" : 452
+      }
+    } ]
+  },
+  "813f46d2edc392b7841295ee98f13ccb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "60b109955e9fab1d",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/60b109955e9fab1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765067192,
+        "stop" : 1626765067486,
+        "duration" : 294
+      }
+    }, {
+      "uid" : "def517c8107403ae",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/def517c8107403ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764847748,
+        "stop" : 1626764848019,
+        "duration" : 271
+      }
+    }, {
+      "uid" : "9d0f2b3500437b98",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/28/allure/#testresult/9d0f2b3500437b98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764272107,
+        "stop" : 1626764272404,
+        "duration" : 297
+      }
+    } ]
+  },
+  "2e85a9e5a39ad51f786acd6f826c3ba5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "68097a62c7ecf1fa",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/68097a62c7ecf1fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765069642,
+        "stop" : 1626765070141,
+        "duration" : 499
+      }
+    }, {
+      "uid" : "34540fbc09a7847",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/34540fbc09a7847",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764850205,
+        "stop" : 1626764850684,
+        "duration" : 479
+      }
+    } ]
+  },
+  "1104e2c63a643cdc2b047e824b7f4895" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "8421d68fe01d51a0",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/8421d68fe01d51a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765067491,
+        "stop" : 1626765068015,
+        "duration" : 524
+      }
+    }, {
+      "uid" : "b025d64777124610",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/b025d64777124610",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764848024,
+        "stop" : 1626764848651,
+        "duration" : 627
+      }
+    }, {
+      "uid" : "5395f6d937a0c2de",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/28/allure/#testresult/5395f6d937a0c2de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764272410,
+        "stop" : 1626764272944,
+        "duration" : 534
+      }
+    } ]
+  },
+  "e4dd9e252ce639dc278157128dfe2082" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "88d3680a74e49f16",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/88d3680a74e49f16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765072274,
+        "stop" : 1626765072792,
+        "duration" : 518
+      }
+    }, {
+      "uid" : "93ff39220e73d86d",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/93ff39220e73d86d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764852177,
+        "stop" : 1626764853007,
+        "duration" : 830
+      }
+    } ]
+  },
+  "20bdb00ab80debc91cef71afac9ecb3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "7ee8d084e2069338",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/7ee8d084e2069338",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765074900,
+        "stop" : 1626765076072,
+        "duration" : 1172
+      }
+    }, {
+      "uid" : "6a7dba1327ef07f0",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/6a7dba1327ef07f0",
+      "status" : "broken",
+      "statusDetails" : "KeyError: \"name='userId', domain=None, path=None\"",
+      "time" : {
+        "start" : 1626764854465,
+        "stop" : 1626764854663,
+        "duration" : 198
+      }
+    } ]
+  },
+  "693f6da1dd19a4747dbc28cc3107b3fa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "8378234102d6e5f7",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/8378234102d6e5f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765066506,
+        "stop" : 1626765067027,
+        "duration" : 521
+      }
+    }, {
+      "uid" : "b002eb2866f233e4",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/b002eb2866f233e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764847058,
+        "stop" : 1626764847578,
+        "duration" : 520
+      }
+    }, {
+      "uid" : "98baf7e36d6a62dc",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/28/allure/#testresult/98baf7e36d6a62dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764271510,
+        "stop" : 1626764271937,
+        "duration" : 427
+      }
+    } ]
+  },
+  "fe70748c2a69d659ab9a035ec8e1f6f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "17c685aac52045da",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/17c685aac52045da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765072796,
+        "stop" : 1626765073905,
+        "duration" : 1109
+      }
+    }, {
+      "uid" : "649cc190fd430099",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/649cc190fd430099",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764853012,
+        "stop" : 1626764854085,
+        "duration" : 1073
+      }
+    } ]
+  },
+  "70a4887e990ca7303c217b6d767c88ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "44aa20e192d24497",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/44aa20e192d24497",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765068204,
+        "stop" : 1626765068663,
+        "duration" : 459
+      }
+    }, {
+      "uid" : "15ed9bb2d65b7689",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/15ed9bb2d65b7689",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764848819,
+        "stop" : 1626764849110,
+        "duration" : 291
+      }
+    }, {
+      "uid" : "88d3f6cd46e2c970",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/28/allure/#testresult/88d3f6cd46e2c970",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764273130,
+        "stop" : 1626764273415,
+        "duration" : 285
+      }
+    } ]
+  },
+  "182867412750f8ed542cdeb3e1a0b9b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "b4a5d63451106f4",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/b4a5d63451106f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765066034,
+        "stop" : 1626765066501,
+        "duration" : 467
+      }
+    }, {
+      "uid" : "a9590d03bffa3cbc",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/a9590d03bffa3cbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764846597,
+        "stop" : 1626764847053,
+        "duration" : 456
+      }
+    }, {
+      "uid" : "613f69a112c3e3a6",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/28/allure/#testresult/613f69a112c3e3a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764271045,
+        "stop" : 1626764271505,
+        "duration" : 460
+      }
+    } ]
+  },
+  "889e6e722fbaf841162dd71eca203479" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "96537a3e7e8f7d64",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure/#testresult/96537a3e7e8f7d64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765070145,
+        "stop" : 1626765071555,
+        "duration" : 1410
+      }
+    }, {
+      "uid" : "9caca662b13e7efe",
+      "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/9caca662b13e7efe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764850689,
+        "stop" : 1626764851861,
+        "duration" : 1172
+      }
+    } ]
+  }
+}

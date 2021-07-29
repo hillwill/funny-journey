@@ -1,0 +1,72 @@
+{
+  "uid" : "8990f5188ae9464a",
+  "name" : "修改操作员密码成功！修改后密码：eisoo.com123",
+  "fullName" : "TestCase.test_reset_sh#test_reset_operator_once",
+  "historyId" : "70a4887e990ca7303c217b6d767c88ce",
+  "time" : {
+    "start" : 1626761310124,
+    "stop" : 1626761310586,
+    "duration" : 462
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "sh_login_operator",
+    "time" : {
+      "start" : 1626761309943,
+      "stop" : 1626761310123,
+      "duration" : 180
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_reset_sh"
+  }, {
+    "name" : "host",
+    "value" : "WIN-JS0E4L8GKNT"
+  }, {
+    "name" : "thread",
+    "value" : "2648-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_reset_sh"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'success'"
+  }, {
+    "name" : "resetoperator",
+    "value" : "{'isEnc': 'true', 'oldUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'repeatUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'userPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY='}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8990f5188ae9464a.json",
+  "parameterValues" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'repeatUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'userPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY='}" ]
+}

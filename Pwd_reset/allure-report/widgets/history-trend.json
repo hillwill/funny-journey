@@ -1,0 +1,37 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 12,
+    "unknown" : 0,
+    "total" : 12
+  }
+}, {
+  "buildOrder" : 29,
+  "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 2,
+    "skipped" : 0,
+    "passed" : 10,
+    "unknown" : 0,
+    "total" : 12
+  }
+}, {
+  "buildOrder" : 28,
+  "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/28/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 6,
+    "unknown" : 0,
+    "total" : 6
+  }
+} ]

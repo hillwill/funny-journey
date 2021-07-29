@@ -1,0 +1,22 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 10038
+  }
+}, {
+  "buildOrder" : 29,
+  "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 8066
+  }
+}, {
+  "buildOrder" : 28,
+  "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/28/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 2828
+  }
+} ]

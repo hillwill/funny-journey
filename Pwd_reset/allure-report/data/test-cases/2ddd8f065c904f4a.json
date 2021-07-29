@@ -1,0 +1,57 @@
+{
+  "uid" : "2ddd8f065c904f4a",
+  "name" : "修改admin密码成功！修改后密码：EISOO.COM123",
+  "fullName" : "TestCase.test_reset_sh#test_reset_admin_twice",
+  "historyId" : "693f6da1dd19a4747dbc28cc3107b3fa",
+  "time" : {
+    "start" : 1626764003507,
+    "stop" : 1626764004029,
+    "duration" : 522
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_reset_sh"
+  }, {
+    "name" : "host",
+    "value" : "WIN-JS0E4L8GKNT"
+  }, {
+    "name" : "thread",
+    "value" : "1684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_reset_sh"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'success'"
+  }, {
+    "name" : "resetadmin",
+    "value" : "{'isEnc': 'true', 'oldUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'repeatUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'userPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI='}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ddd8f065c904f4a.json",
+  "parameterValues" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'repeatUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'userPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI='}" ]
+}

@@ -1,0 +1,173 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestCase",
+    "children" : [ {
+      "name" : "test_reset_sh",
+      "children" : [ {
+        "name" : "修改admin密码成功！修改后密码：eisoo.com123",
+        "uid" : "b4a5d63451106f4",
+        "parentUid" : "d7b22c3821c2116eeab8fefbf18288d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765066034,
+          "stop" : 1626765066501,
+          "duration" : 467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'repeatUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'userPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY='}" ]
+      }, {
+        "name" : "修改admin密码成功！修改后密码：EISOO.COM123",
+        "uid" : "8378234102d6e5f7",
+        "parentUid" : "d7b22c3821c2116eeab8fefbf18288d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765066506,
+          "stop" : 1626765067027,
+          "duration" : 521
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'repeatUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'userPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI='}" ]
+      }, {
+        "name" : "修改sadmin密码成功！修改后密码：eisoo.com123",
+        "uid" : "60b109955e9fab1d",
+        "parentUid" : "d7b22c3821c2116eeab8fefbf18288d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765067192,
+          "stop" : 1626765067486,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'repeatUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'userPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY='}" ]
+      }, {
+        "name" : "修改sadmin密码成功！修改后密码：EISOO.COM123",
+        "uid" : "8421d68fe01d51a0",
+        "parentUid" : "d7b22c3821c2116eeab8fefbf18288d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765067491,
+          "stop" : 1626765068015,
+          "duration" : 524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'repeatUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'userPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI='}" ]
+      }, {
+        "name" : "修改操作员密码成功！修改后密码：eisoo.com123",
+        "uid" : "44aa20e192d24497",
+        "parentUid" : "d7b22c3821c2116eeab8fefbf18288d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765068204,
+          "stop" : 1626765068663,
+          "duration" : 459
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'repeatUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'userPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY='}" ]
+      }, {
+        "name" : "修改sadmin密码成功！修改后密码：EISOO.COM123",
+        "uid" : "3f60f3c3c538755d",
+        "parentUid" : "d7b22c3821c2116eeab8fefbf18288d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765068668,
+          "stop" : 1626765069110,
+          "duration" : 442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'repeatUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'userPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI='}" ]
+      } ],
+      "uid" : "d7b22c3821c2116eeab8fefbf18288d9"
+    }, {
+      "name" : "test_reset_shidc",
+      "children" : [ {
+        "name" : "IDC修改admin密码成功！修改后密码：eisoo.com123",
+        "uid" : "68097a62c7ecf1fa",
+        "parentUid" : "ee5e84fe4bcfa6bafdf3e671ac574e1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765069642,
+          "stop" : 1626765070141,
+          "duration" : 499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'repeatUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'userPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY='}" ]
+      }, {
+        "name" : "IDC修改admin密码成功！修改后密码：EISOO.COM123",
+        "uid" : "96537a3e7e8f7d64",
+        "parentUid" : "ee5e84fe4bcfa6bafdf3e671ac574e1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765070145,
+          "stop" : 1626765071555,
+          "duration" : 1410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'repeatUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'userPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI='}" ]
+      }, {
+        "name" : "IDC修改sadmin密码成功！修改后密码：eisoo.com123",
+        "uid" : "88d3680a74e49f16",
+        "parentUid" : "ee5e84fe4bcfa6bafdf3e671ac574e1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765072274,
+          "stop" : 1626765072792,
+          "duration" : 518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'repeatUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'userPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY='}" ]
+      }, {
+        "name" : "IDC修改sadmin密码成功！修改后密码：EISOO.COM123",
+        "uid" : "17c685aac52045da",
+        "parentUid" : "ee5e84fe4bcfa6bafdf3e671ac574e1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765072796,
+          "stop" : 1626765073905,
+          "duration" : 1109
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'repeatUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'userPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI='}" ]
+      }, {
+        "name" : "IDC修改操作员密码成功！修改后密码：eisoo.com123",
+        "uid" : "8341db881344683b",
+        "parentUid" : "ee5e84fe4bcfa6bafdf3e671ac574e1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765074417,
+          "stop" : 1626765074894,
+          "duration" : 477
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'repeatUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'userPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY='}" ]
+      }, {
+        "name" : "IDC修改sadmin密码成功！修改后密码：EISOO.COM123",
+        "uid" : "7ee8d084e2069338",
+        "parentUid" : "ee5e84fe4bcfa6bafdf3e671ac574e1c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626765074900,
+          "stop" : 1626765076072,
+          "duration" : 1172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'repeatUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'userPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI='}" ]
+      } ],
+      "uid" : "ee5e84fe4bcfa6bafdf3e671ac574e1c"
+    } ],
+    "uid" : "9fa14e2db0d1ecbd3a4c5f0825d2ac34"
+  } ]
+}

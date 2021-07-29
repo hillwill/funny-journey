@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9461a9cf-92d8-4dba-8b44-9a39196b661f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jPx8wiCFcFqpAOzSakvHDcNLHv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TestCase/MyProjectApi-testTestResultreport.hmtl" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/TestCase/MyProjectApi-testTestResultreport.hmtl" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyProject\ONLINE-test\TestCase" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9461a9cf-92d8-4dba-8b44-9a39196b661f" name="Default Changelist" comment="" />
+      <created>1603719371660</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603719371660</updated>
+      <workItem from="1603719373133" duration="16000" />
+      <workItem from="1603719409474" duration="2867000" />
+      <workItem from="1603765490129" duration="3298000" />
+      <workItem from="1604133389392" duration="683000" />
+      <workItem from="1604325984626" duration="2576000" />
+      <workItem from="1604397009025" duration="14597000" />
+      <workItem from="1604478368821" duration="14728000" />
+      <workItem from="1605058062846" duration="168000" />
+      <workItem from="1605598731595" duration="6687000" />
+      <workItem from="1605860903660" duration="33000" />
+      <workItem from="1605860941153" duration="224000" />
+      <workItem from="1605861330550" duration="1993000" />
+      <workItem from="1606702633069" duration="231000" />
+      <workItem from="1606873053724" duration="42000" />
+      <workItem from="1607307795951" duration="40000" />
+      <workItem from="1607678818275" duration="3885000" />
+      <workItem from="1607914054745" duration="16330000" />
+      <workItem from="1608016179094" duration="11207000" />
+      <workItem from="1608084213644" duration="579000" />
+      <workItem from="1608189723003" duration="5754000" />
+      <workItem from="1608293799563" duration="721000" />
+      <workItem from="1608514986621" duration="587000" />
+      <workItem from="1608796819673" duration="2451000" />
+      <workItem from="1608876045340" duration="640000" />
+      <workItem from="1612246243500" duration="10156000" />
+      <workItem from="1612260023521" duration="355000" />
+      <workItem from="1612260396361" duration="10000" />
+      <workItem from="1612260588732" duration="78000" />
+      <workItem from="1612314603322" duration="897000" />
+      <workItem from="1620632178338" duration="3396000" />
+      <workItem from="1623809725567" duration="184000" />
+      <workItem from="1625451295499" duration="860000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1620632293795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620632293795" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1620632194184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620632194184" />
+  </component>
+</project>

@@ -1,0 +1,110 @@
+{
+  "uid" : "88d3680a74e49f16",
+  "name" : "IDC修改sadmin密码成功！修改后密码：eisoo.com123",
+  "fullName" : "TestCase.test_reset_shidc#test_resetsh_sadmin_once",
+  "historyId" : "e4dd9e252ce639dc278157128dfe2082",
+  "time" : {
+    "start" : 1626765072274,
+    "stop" : 1626765072792,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "shidc_login_sadmin",
+    "time" : {
+      "start" : 1626765071558,
+      "stop" : 1626765072273,
+      "duration" : 715
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_reset_shidc"
+  }, {
+    "name" : "host",
+    "value" : "WIN-JS0E4L8GKNT"
+  }, {
+    "name" : "thread",
+    "value" : "3488-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_reset_shidc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expected",
+    "value" : "'success'"
+  }, {
+    "name" : "resetsadmin",
+    "value" : "{'isEnc': 'true', 'oldUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'repeatUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'userPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY='}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a2fbb489a57e821c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626765009641,
+        "stop" : 1626765010186,
+        "duration" : 545
+      }
+    }, {
+      "uid" : "c4615a940e954e33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1626764852177,
+        "stop" : 1626764853007,
+        "duration" : 830
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "93ff39220e73d86d",
+        "reportUrl" : "http://192.168.210.58:9090/job/Pwd_reset/29/allure/#testresult/93ff39220e73d86d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1626764852177,
+          "stop" : 1626764853007,
+          "duration" : 830
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "88d3680a74e49f16.json",
+  "parameterValues" : [ "'success'", "{'isEnc': 'true', 'oldUserPass': 'qH5DuXEgWFTKXofaeAygzigibB7ujOXbiotgvNvw9gy2ia3DIVBz/0e4b2o8OY7IP7xiJo96sIkmwVND1nvNSJre5x4M+ucAIaG3ZKFihNpmx+UkKn8r6Uidgz46PUuiOqYceGKoUSNavx4XEjNr3Pq+P1xQQKTvErtdr9vrRiI=', 'repeatUserPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY=', 'userPass': 'rLbS6j09h7zIrX9WU5DqnKtns56HvV+GNxXKMb4+GXbS6P/OTv+BAyS8SpMkqTtdhvxLnvH+2jabwq6naVFP+7L9m5Ny0D8743SsQVKUYgnQq5cjUUqHlwgzbkWVZuMVaiDhen0BOFVQOpBxQGU2hOgq/hCNXbmXhecxh9fgruY='}" ]
+}
