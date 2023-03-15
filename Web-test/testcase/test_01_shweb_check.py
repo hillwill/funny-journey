@@ -12,14 +12,14 @@ class web_check(unittest2.TestCase):
         # 将浏览器设置为占满整个屏幕
         cls.driver.maximize_window()
         # 访问网页
-        cls.driver.get('https://192.168.140.55:9600')
+        cls.driver.get('https://ip:port')
         cls.driver.implicitly_wait(5)
 
     def test_openit(self):
         """访问控制台"""
         # admin登录
         self.driver.find_element_by_name("userName").send_keys("admin")
-        self.driver.find_element_by_name("password").send_keys("EISOO.COM123")
+        self.driver.find_element_by_name("password").send_keys("xxx123")
         self.driver.find_element_by_xpath("//*[@id='app']/div[2]/div/ng-include/div/div/div/form/div[2]/button").click()
         time.sleep(3)
         # text = self.driver.find_element_by_xpath('//*[@id="ngdialog2"]/div[2]/div[2]/div/div/div[3]/div[2]').text
@@ -38,7 +38,7 @@ class web_check(unittest2.TestCase):
 
         # sadmin登录
         self.driver.find_element_by_name("userName").send_keys("sadmin")
-        self.driver.find_element_by_name("password").send_keys("EISOO.COM123")
+        self.driver.find_element_by_name("password").send_keys("xxx123")
         self.driver.find_element_by_xpath("//*[@id='app']/div[2]/div/ng-include/div/div/div/form/div[2]/button").click()
         time.sleep(3)
         self.driver.find_element_by_xpath("//*[contains(text(), '确定')]").click()
@@ -57,7 +57,7 @@ class web_check(unittest2.TestCase):
 
         # 操作员登录
         self.driver.find_element_by_name("userName").send_keys("eisoo")
-        self.driver.find_element_by_name("password").send_keys("EISOO.COM123")
+        self.driver.find_element_by_name("password").send_keys("xxx123")
         self.driver.find_element_by_xpath("//*[@id='app']/div[2]/div/ng-include/div/div/div/form/div[2]/button").click()
         time.sleep(3)
         self.driver.find_element_by_xpath("//*[contains(text(), '确定')]").click()
