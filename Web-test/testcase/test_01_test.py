@@ -16,7 +16,7 @@ class Createuser(unittest2.TestCase):
         cls.path = os.getcwd()
         cls.driver.get("https://10.2.12.159:9600")
         cls.driver.find_element_by_name("userName").send_keys("test")
-        cls.driver.find_element_by_name("password").send_keys("eisoo.com123")
+        cls.driver.find_element_by_name("password").send_keys("xxx123")
         cls.driver.find_element_by_xpath("//*[@id='app']/div[2]/div/ng-include/div/div/div/form/div[2]/button").click()
         time.sleep(5)
 
