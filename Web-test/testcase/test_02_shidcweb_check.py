@@ -19,7 +19,7 @@ class web_check(unittest2.TestCase):
         """访问控制台"""
         # admin登录
         self.driver.find_element_by_name("userName").send_keys("admin")
-        self.driver.find_element_by_name("password").send_keys("EISOO.COM123")
+        self.driver.find_element_by_name("password").send_keys("sss123")
         self.driver.find_element_by_xpath("//*[@id='app']/div[2]/div/ng-include/div/div/div/form/div[2]/button").click()
         time.sleep(3)
         self.driver.find_element_by_xpath("//*[contains(text(), '确定')]").click()
