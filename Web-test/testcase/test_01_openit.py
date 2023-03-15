@@ -18,13 +18,13 @@ class openit(unittest2.TestCase):
         # cls.driver.get_screenshot_as_file("D:\\b.jpg")
         # time.sleep(5)
         cls.driver.find_element_by_name("userName").send_keys("test")
-        cls.driver.find_element_by_name("password").send_keys("eisoo.com123")
+        cls.driver.find_element_by_name("password").send_keys("xxx123")
         # cls.driver.find_element_by_css_selector('#app > div.login.ng-scope > div > ng-include > div > div > div > form > div.login-form-container > button') .click()
         cls.driver.find_element_by_xpath("//*[@id='app']/div[2]/div/ng-include/div/div/div/form/div[2]/button")
         time.sleep(5)
 
     @parameterized.expand([
-        param("wxt"),
+        param("xxx"),
     ])
     def test_createuser(self, newoperator):
         """"新建操作员"""
